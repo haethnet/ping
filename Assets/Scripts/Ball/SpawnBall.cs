@@ -25,6 +25,7 @@ public class SpawnBall : MonoBehaviour
         {
             Instantiate(ball, Vector2.zero, Quaternion.identity);
             moveBall.isMoving = true;
+            Debug.Log("ping");
         }
     }
 }
